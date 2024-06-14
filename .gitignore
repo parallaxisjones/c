@@ -1,1 +1,17 @@
 build
+# Ignore object files and executables
+*.o
+*.out
+*.exe
+my_program
+
+# Ignore debug symbol directories
+*.dSYM/
+
+# Ignore temporary files
+*~
+*.swp
+.DS_Store
+
+# Ignore build directories
+/build/
